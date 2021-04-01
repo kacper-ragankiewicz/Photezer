@@ -1,2 +1,0 @@
-# kacper-ragankiewicz.github.io
- 
