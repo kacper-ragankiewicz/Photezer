@@ -1,0 +1,347 @@
+:root {
+  --glowny-kolor-tla:#3a9397;
+  --kolor-detali:#f40d53;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+ width: 100%;
+ font-family: 'Red Hat Display', sans-serif;
+ /* Background pattern from Toptal Subtle Patterns */
+ background-image: url("img/so-white.png");
+  min-height: 150px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+/* NAVBAR */
+.navbar {
+  font-size: 1.5vw;
+  -webkit-box-shadow: 5px 0px 10px 2px var(--glowny-kolor-tla);
+  -moz-box-shadow: 5px 0px 10px 2px var(--glowny-kolor-tla);
+	box-shadow: 6px 0px 10px 2px var(--glowny-kolor-tla);
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw;
+  background-color: #c4c4c4;
+  border-bottom: var(--glowny-kolor-tla) solid 2px;
+}
+.left-side {
+  display: flex;
+}
+.brand {
+  letter-spacing: 0.2vw;
+}
+.brand > a {
+  text-decoration: none;
+  color: black;
+}
+.brand>a:hover {
+  color: var(--kolor-detali);
+  transition: 0.2s;
+}
+
+
+.nav-wrapper > .left-side > div {
+  margin-right: 2vw;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+}
+.nav-link-wrapper {
+  height: 2vw;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+.active-nav-link {
+  border-bottom: 1px solid black;
+}
+.active-nav-link a {
+  color: black !important;
+}
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+}
+.nav-link-wrapper a:hover {
+  color: black;
+}
+
+/* FIRST IMPRESION */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5vw;
+  width: 80%;
+  max-width: 2000px;
+}
+.first {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.slider {
+
+
+}
+.about {
+  margin-top: 20px;
+  margin-bottom: 5vw;
+}
+.photo {
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border:black solid 3vw;
+}
+
+      .me{
+        grid-area: photo;
+        height: auto;
+        width: 45%;
+        background-size: cover;
+        background-position: center;
+        -webkit-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+        -moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+        box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+      }
+      .mynameis > p {
+        font-size: 2vw;
+      }
+
+.photo-welcome {
+  height: 9vw;
+}
+
+.text-welcome-nice {
+  margin-top: 15vw;
+  background-color: #c4c4c4;
+  padding: 2vw;
+  font-size: xx-large;
+  -webkit-box-shadow: 5px 0px 10px 2px rgba(204, 204, 204, 0.9);
+  -moz-box-shadow: 5px 0px 10px 2px rgba(204,204,204,0.9);
+	box-shadow: 6px 0px 10px 2px rgba(204,204,204,0.9);
+  border-bottom: #f40d53 solid 0.1vw;
+}
+
+    .mynameis {
+      margin-top: 10vw;
+      background-color: #c4c4c4;
+      padding: 2vw;
+      float: right;
+      font-size: xx-large;
+    border-left: black solid 0.5vw;
+    }
+
+h2 {
+  font-size: 3vw;
+}
+h3 {
+  font-size: 2vw;
+}
+h3 > a {
+  color: #f40d53;
+  text-decoration: none;
+}
+.form-group {
+  width: 5vw;
+  font-size: 2vw;
+  padding: 2vw;
+}
+
+.fillwidth {
+  min-width: 55%;
+  height: auto;
+}
+.fillheight {
+  min-height: 100%; 
+  width: auto;
+}
+input[type=text] {
+  width: 20vw;
+  background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 2vw;
+	padding: 1vw;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 2vw
+}
+input[type=submit] {
+  width: 9vw;
+  padding: 1.2vw;
+  background-color: var(--glowny-kolor-tla);
+	font-size:2vw;
+	color: white;
+	padding: 1vw 1.5vw;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+input[type=submit]:hover {
+  background-color:var(--kolor-detali);
+  transition: 0.5s;
+}
+
+input[type=text]:focus
+{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	border: 2px solid var(--glowny-kolor-tla);
+	background-color: #e9f3e9;
+	color: #428c42;
+}
+
+
+
+
+
+
+
+
+.more > h2 {
+  text-align: center;
+  margin-top: 8vw;
+  font-size: 3vw;
+  margin-bottom: 2vw;
+}
+.more > h2 > a {
+  color:var(--kolor-detali);
+  text-decoration: none;
+}
+
+/* GALERY */
+
+.galery-container {
+  background-color: #c4c4c4;
+  padding: 5vw;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+}
+.galery {
+  display: grid;
+  grid-template-rows: 150px 150px 150px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+
+.how > h2 {
+  text-align: center;
+  margin-top: 8vw;
+  font-size: 3vw;
+  margin-bottom: 6vw;
+}
+.simple > h3 {
+  text-align: center;
+  margin-top: -6vw;
+  font-size: 1.5vw;
+  margin-bottom: 3vw;
+  color: var(--kolor-detali);
+}
+
+/* IKONS 3-STEPS */
+
+.ikons{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding-bottom: 10vw;
+  padding-top: 10vw;
+  background-color:var(--glowny-kolor-tla);
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+  margin-bottom: 5vw;
+
+}
+.ikon > img {
+  width: 12vw;
+  height: 10vw;
+  margin-left: 29%;
+}
+.ikon > h2 {
+  text-align: center;
+  margin-top: 2vw;
+  font-size: 4vw;
+  padding: 0.5vw;
+}
+.ikon > p {
+  text-align: center;
+  font-size: 1.5vw;
+}
+/* .not {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+  margin-top: 6vw;
+} */
+
+
+
+@media screen and (max-width: 600px) {
+
+}
+
+
+
+
+
+/* FOOTER */
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  background-color: black;
+  padding: 1.5vw;
+  color: white;
+  font-size: 1vw;
+  border-top: var(--glowny-kolor-tla) solid 2px;
+}
+.footer-left  {
+  text-decoration: none;
+  color: #c4c4c4;
+  text-align: left;
+}
+.footer-center {
+  text-align: center;
+}
+.footer-right {
+  text-align: right;
+}
+.footer-right > a {
+  text-decoration: none;
+  color: white;
+  margin: 1vw;
+  padding-left: 0.5vw;
+  border-left: white solid 1px;
+}
+.footer-right> a:hover {
+  color:var(--glowny-kolor-tla);
+  transition: 0.3s;
+}
