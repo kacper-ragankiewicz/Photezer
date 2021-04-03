@@ -54,7 +54,7 @@ body {
   font-size: 1vw;
 }
 .nav-link-wrapper {
-  height: 2vw;
+  height: 1.3vw;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.5s;
 }
