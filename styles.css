@@ -344,6 +344,9 @@ input[type=text]:focus
   font-size: xx-large;
 border-left: black solid 0.5vw;
 }
+.nice {
+  color: var(--kolor-detali);
+}
 .contact {
   background-color: var(--glowny-kolor-tla);
   width: 85%;
@@ -360,7 +363,7 @@ border-left: black solid 0.5vw;
   margin-top: 5vw;
   padding-top: 1vw;
   font-size: 4vw;
-}
+  }
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
