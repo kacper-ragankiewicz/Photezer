@@ -20,7 +20,7 @@ body {
 }
 /* NAVBAR */
 .navbar {
-  font-size: 1.5vw;
+  font-size: 1vw;
   -webkit-box-shadow: 5px 0px 10px 2px var(--glowny-kolor-tla);
   -moz-box-shadow: 5px 0px 10px 2px var(--glowny-kolor-tla);
 	box-shadow: 6px 0px 10px 2px var(--glowny-kolor-tla);
@@ -28,7 +28,7 @@ body {
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 3vw;
+  padding: 2vw;
   background-color: #c4c4c4;
   border-bottom: var(--glowny-kolor-tla) solid 2px;
 }
@@ -51,7 +51,7 @@ body {
 .nav-wrapper > .left-side > div {
   margin-right: 2vw;
   text-transform: uppercase;
-  font-size: 1.5vw;
+  font-size: 1vw;
 }
 .nav-link-wrapper {
   height: 2vw;
@@ -89,10 +89,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.slider {
 
-
-}
 .about {
   margin-top: 20px;
   margin-bottom: 5vw;
