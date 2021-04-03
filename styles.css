@@ -347,7 +347,7 @@ border-left: black solid 0.5vw;
 .nice {
   color: var(--kolor-detali);
 }
-.contact {
+/* .contact {
   background-color: var(--glowny-kolor-tla);
   width: 85%;
   margin-left: auto;
@@ -395,4 +395,4 @@ border-left: black solid 0.5vw;
 }
 #tele {
   margin-top: 1vw;
-}
+} */
