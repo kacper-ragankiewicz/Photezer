@@ -104,6 +104,7 @@ body {
   background-size: cover;
   background-position: center;
   border:black solid 3vw;
+  min-height: 9vw;
 }
 
 .photo-welcome {
