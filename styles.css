@@ -312,7 +312,7 @@ input[type=text]:focus
   background-color: black;
   padding: 1.5vw;
   color: white;
-  font-size: 1vw;
+  font-size: 0.8vw;
   border-top: var(--glowny-kolor-tla) solid 2px;
 }
 .footer-left  {
