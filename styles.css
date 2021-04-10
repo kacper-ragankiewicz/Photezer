@@ -424,14 +424,14 @@ input[type=text]:focus
 .container-more-gallery {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(5,1fr);
+  grid-template-rows: auto;
   column-gap: 1vh;
   row-gap: 1vh;
 }
 
 .container-more-gallery img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
   transition: all 0.3s ease 0s;
 }
