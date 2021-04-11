@@ -652,24 +652,3 @@ input[type=text]:focus
   }
 
 }
-
-@media only screen and (min-width: 720px) {
-
-   /* MEDIA SIZE - MORE.HTML GALLERY */
-
-   .container-more-gallery {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    column-gap: 1vh;
-    row-gap: 1vh;
-  }
-
-  .container-more-gallery img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: all 0.3s ease 0s;
-  }
-
-}
