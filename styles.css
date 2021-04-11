@@ -453,9 +453,13 @@ input[type=text]:focus
   opacity: 0.5;
 }
 
+
+
+
+
 /* MEDIA SIZE */
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 700px) {
 
   .logo {
     display: none;
