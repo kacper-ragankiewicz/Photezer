@@ -129,7 +129,8 @@ button:hover {
 
 .container-1 {
   text-align: center;
-  padding: 24vw;
+  max-height: 1vw;
+  padding: 35vh 0px;
   min-height: 100vh;
   border-bottom:var(--color-detal) solid 2px;
 }
@@ -152,8 +153,8 @@ button:hover {
 
 .container-2 {
   text-align: center;
-  padding: 8vw;
-  min-height: 100vh;
+  padding: 8vh;
+  min-height: 50vh;
   border-bottom:var(--color-detal) solid 2px;
 }
 
@@ -212,7 +213,7 @@ button:hover {
 .container-3 {
   text-align: center;
   padding: 13vw;
-  min-height: 100vh;
+  min-height: 50vh;
   border-bottom:var(--color-detal) solid 2px;
 }
 
@@ -291,7 +292,7 @@ input[type=text]:focus
 .container-4 {
   text-align: center;
   padding: 13vw;
-  min-height: 100vh;
+  min-height: 50vh;
 }
 
 .container-4 h2 {
@@ -459,7 +460,7 @@ input[type=text]:focus
 
 /* MEDIA SIZE */
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 780px) {
 
   .logo {
     display: none;
