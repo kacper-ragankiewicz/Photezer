@@ -234,7 +234,7 @@ button:hover {
 
 /* CONTAINER NR.3 - INPUT */
 
-input[type=text] {
+input[type=email] {
   width: 20vw;
   background-color: #efefef;
 	color: #666;
@@ -267,7 +267,7 @@ input[type=submit]:hover {
   transition: 0.5s;
 }
 
-input[type=text]:focus
+input[type=email]:focus
   {
     -webkit-box-shadow: 0px 0px 10px 2px rgb(56, 49, 49);
     -moz-box-shadow: 0px 0px 10px 2px rgb(56, 49, 49);
@@ -515,7 +515,7 @@ input[type=text]:focus
     font-size: 5vh;
   }
 
-  input[type=text] {
+  input[type=email] {
     width: 30vh;
     background-color: #efefef;
     color: #666;
@@ -542,13 +542,13 @@ input[type=text]:focus
     letter-spacing: 2px;
     outline: none;
   }
-  
+
   input[type=submit]:hover {
     background-color:var(--color-detal);
     transition: 0.5s;
   }
-  
-  input[type=text]:focus
+
+  input[type=email]:focus
   {
     -webkit-box-shadow: 0px 0px 10px 2px rgb(56, 49, 49);
     -moz-box-shadow: 0px 0px 10px 2px rgb(56, 49, 49);
